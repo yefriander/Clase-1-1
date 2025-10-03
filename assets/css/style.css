@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+body {
+    font-family: Outfit;
+    background-color: rgb(245, 245, 245);
+    margin: 0;
+    padding: 0;
+}
+.app-container {
+    padding: 0;
+}
+.app-header {
+    margin: 0;
+    background-color: blue;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+.navigation {
+    background-color: blue;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.nav-link {
+    background-color: chartreuse;
+    padding: 2px 8px;
+    border-radius: 5px;
+}
+.nav-link:hover {
+    background-color: yellow;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.nav-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 10px;
+}
+.page-container {
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    gap: 10px;
+}
+.content {
+    background-color: white;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.content.left,
+.content.right {
+    width: 50%;
+}
+.title {
+    text-align: center;
+    margin-top: 0;
+}
